@@ -1,0 +1,55 @@
+.superhero-container {
+    border: 1px solid #F3F3F3;
+    width: 300px;
+    margin: 10px 15px;
+}
+.superhero-container:hover{
+    box-shadow: 0px 0px 10px #dfcece;
+}
+.superhero-container:active{
+    box-shadow: none;
+}
+.img-container{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.name-container{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px auto;
+    text-align: center;
+}
+.delete-button{
+    width: 75px;
+    padding: 5px 0;
+    background-color: #F3F3F3;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+.edit-button{
+    width: 75px;
+    padding: 5px 0;
+    background-color: #F3F3F3;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+.delete-button:hover{
+    background-color: gray;
+}
+.edit-button:hover{
+    background-color: gray;
+}

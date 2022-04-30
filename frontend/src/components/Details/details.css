@@ -1,0 +1,27 @@
+.img-box{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.details-container{
+    margin: 20px;
+}
+.details-label{
+    margin: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+.details-content{
+    margin: 0 30px 10px  ;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+}
+.details-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: 0px 0px 10px #dfcece;
+
+}

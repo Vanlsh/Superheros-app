@@ -1,0 +1,13 @@
+.pagination-item{
+    padding: 5px 7px;
+    background-color: #EAEAEA;
+    border-radius: 2px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.pagination-item:active{
+    background-color: white;
+}
+.material-icons{
+    cursor: pointer;
+}
